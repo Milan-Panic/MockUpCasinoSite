@@ -140,7 +140,7 @@ $(document).ready(function(){
             clicked = !clicked;
             $('.fa-bars').removeClass('rotateMenu')
         }else{
-            $('#meny-links').css('display', 'block');            
+            $('#meny-links').css('display', 'flex');            
             clicked = !clicked;
             $('.fa-bars').addClass('rotateMenu')
         }
